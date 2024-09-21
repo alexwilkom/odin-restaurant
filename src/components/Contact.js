@@ -19,8 +19,11 @@ function Contact() {
             <label for="message">Message</label>
             <textarea name="message" id="message"></textarea>
         </p>
-        <button>Send</button>
     `
+    const button = document.createElement("button");
+    button.innerText = "Send";
+    form.appendChild(button);
+    button.addEventListener("click", (event) => event.preventDefault());
 
     contactSection.appendChild(heading2);
     contactSection.appendChild(form);
