@@ -1,6 +1,6 @@
-import Home from "./components/Home";
-import Menu from "./components/Menu";
-import Contact from "./components/Contact";
+import Home from "./Home";
+import Menu from "./Menu";
+import Contact from "./Contact";
 
 function App() {
     const contentDiv = document.querySelector("#content");
