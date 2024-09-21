@@ -33,7 +33,7 @@ function Menu() {
     menuSection.id = "menu-food";
 
     meals.forEach(meal => {
-        menuSection.appendChild(Card(meal.name, meal.url));
+        menuSection.appendChild(Card(meal.url, meal.name));
     })
 
     return menuSection
