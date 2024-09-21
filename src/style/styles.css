@@ -34,10 +34,6 @@ a {
     }
 }
 
-figcaption {
-    font-size: 70%;
-}
-
 header {
     position: fixed;
     top: 0;
@@ -81,8 +77,23 @@ nav button {
     min-height: calc(100svh - var(--margin-top));
 }
 
+footer {
+    background-color: #D0D0D7;
+    color: var(--color-dark-blue);
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 90%;
+}
+
 section {
     padding: 1rem;
+}
+
+/* Home */
+
+figcaption {
+    font-size: 70%;
 }
 
 .desc-text {
@@ -91,12 +102,4 @@ section {
 
 dt {
     font-weight: bold;
-}
-
-footer {
-    background-color: #D0D0D7;
-    color: var(--color-dark-blue);
-    padding: 1rem;
-    text-align: center;
-    font-size: 90%;
 }
