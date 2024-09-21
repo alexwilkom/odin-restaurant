@@ -1,4 +1,4 @@
-import InitialPageLoad from "./initial-page-load";
+import InitialPageLoad from "./components/initial-page-load";
 import "./style/reset.css";
 import "./style/styles.css";
 

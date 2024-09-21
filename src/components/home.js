@@ -1,4 +1,4 @@
-import img from "./images/main-room.jpg";
+import img from "../images/main-room.jpg";
 
 function Home() {
     const desc = document.createElement("section");

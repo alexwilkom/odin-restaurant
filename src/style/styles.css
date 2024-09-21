@@ -104,3 +104,21 @@ figcaption {
 dt {
     font-weight: bold;
 }
+
+/* Menu */
+
+#menu-food {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    border: 1px solid #D0D0D7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.food-desc {
+    padding: 1rem;
+}
