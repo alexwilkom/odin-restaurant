@@ -8,7 +8,7 @@ function Menu() {
             url: menuImages.figSalad
         },
         {
-            name: "Involtini",
+            name: "Involtini di primavera",
             url: menuImages.involtini
         },
         {
