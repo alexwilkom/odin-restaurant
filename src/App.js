@@ -1,10 +1,12 @@
-import Home from "./home";
+import Home from "./components/Home";
 
-function InitialPageLoad(contentDiv) {
+const contentDiv = document.querySelector("#content");
+
+function App() {
     document.addEventListener("DOMContentLoaded", () => {
         contentDiv.innerHTML = "";
         contentDiv.appendChild(Home());
     });
 }
 
-export default InitialPageLoad;
+export default App;

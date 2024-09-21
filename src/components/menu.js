@@ -1,5 +1,5 @@
 import * as menuImages from "../images/menu/menu-images";
-import Card from "./card";
+import Card from "./Card";
 
 function Menu() {
     const meals = [
