@@ -36,6 +36,11 @@ function Menu() {
         menuSection.appendChild(Card(meal.url, meal.name));
     })
 
+    const attribution = document.createElement("small");
+    attribution.innerHTML = `Images from <a href="https://pixabay.com/">Pixabay</a>`
+
+    menuSection.appendChild(attribution);
+
     return menuSection
 }
 
