@@ -80,10 +80,11 @@ nav button {
 footer {
     background-color: #D0D0D7;
     color: var(--color-dark-blue);
-    margin-top: 1rem;
     padding: 1rem;
     text-align: center;
     font-size: 90%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 section {
