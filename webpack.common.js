@@ -2,7 +2,6 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    mode: "development",
     entry: "./src/index.js",
     output: {
         filename: "main.js",
@@ -11,12 +10,11 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     devServer: {
-        static: './dist',
-        watchFiles: ["./src/index.html"],
+        static: './dist'
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/index.html",
+            template: "./src/template.html",
         }),
     ],
     module: {
@@ -30,7 +28,7 @@ module.exports = {
                 type: 'asset/resource',
                 generator: {
                     filename: 'images/[name][ext]', // Specify the output folder and filename format
-                },
+                }
             },
             {
                 test: /\.html$/i,
